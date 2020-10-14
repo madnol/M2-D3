@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Strive / Travel</title>
+		<title>Strive Travel</title>
 		<!--
         ASSIGNMENT RULES
         - This is exercise should be done in couples
@@ -52,11 +52,26 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
+
+		<style>
+			.container {
+				margin-top: 50px;
+			}
+		</style>
 	</head>
+
 	<body>
 		<!--::::::::::::::::::::navbar:::::::::::::::::::::::::-->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Navbar</a>
+		<nav id="index" class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#index">
+				<img
+					src="logo.png"
+					width="88px"
+					height="15px"
+					class="d-inline-block align-top"
+					alt=""
+					loading="lazy"
+			/></a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -72,12 +87,21 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#"
-							>Home <span class="sr-only">(current)</span></a
+						<a class="nav-link" href="#deal-of-the-week"
+							>Deal Of The Week<span class="sr-only">(current)</span></a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#welcome-summer">Welcome Summer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#deal-of-the-day">Deal Of The Day</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#last-minute">Last Minute</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonial">Testimonial</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a
@@ -92,8 +116,13 @@
 							Dropdown
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#deal-of-the-week"
+								>Deal Of The Week</a
+							>
+							<a class="dropdown-item" href="#welcome-summer">Welcome Summer</a>
+							<a class="dropdown-item" href="#deal-of-the-day"
+								>Deal Of The Day</a
+							>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="#">Something else here</a>
 						</div>
@@ -137,7 +166,8 @@
 		</div>
 		<!--::::::::::::::::::::deal of the week:::::::::::::::::::::::::-->
 
-		<div class="container">
+		<div id="deal-of-the-week" class="container">
+			<h1>Deal of the week</h1>
 			<div class="row">
 				<div class="col-xl-3 col-md-4 col-6">
 					<img
@@ -199,10 +229,12 @@
 		</div>
 		<!--::::::::::::::::::::Welcome summer:::::::::::::::::::::::::-->
 
-		<div class="container">
+		<div id="welcome-summer" class="container">
 			<h1>Welcome summer</h1>
 			<div class="row">
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -216,7 +248,9 @@
 					</p>
 					<button class="btn btn-primary" type="submit">Button</button>
 				</div>
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -230,7 +264,9 @@
 					</p>
 					<button class="btn btn-primary" type="submit">Button</button>
 				</div>
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -244,7 +280,9 @@
 					</p>
 					<button class="btn btn-primary" type="submit">Button</button>
 				</div>
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -258,7 +296,9 @@
 					</p>
 					<button class="btn btn-primary" type="submit">Button</button>
 				</div>
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -272,7 +312,9 @@
 					</p>
 					<button class="btn btn-primary" type="submit">Button</button>
 				</div>
-				<div class="col-xl-2 col-md-4 col-6">
+				<div
+					class="col-xl-2 col-md-4 col-6 shadow-lg p-3 mb-5 bg-white rounded"
+				>
 					<img
 						src="https://picsum.photos/id/237/300/300"
 						alt=""
@@ -288,6 +330,238 @@
 				</div>
 			</div>
 		</div>
+
+		<!--:::::::::::::deal of the day::::::::::::::::::::::::-->
+
+		<div id="deal-of-the-day" class="container d-md-block d-xl-block d-none">
+			<h1>Deal Of The Day</h1>
+			<div class="row">
+				<div class="col-8">
+					<img
+						src="https://source.unsplash.com/random/600x300/?berlin"
+						alt=""
+						class="img-thumbnail"
+					/>
+				</div>
+				<div class="col-4">
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+						voluptates incidunt laborum facere consequatur praesentium harum
+						iusto ipsa itaque minus!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!--::::::::::::::::::::last minute:::::::::::::::::::::::::-->
+		<div id="last-minute" class="container">
+			<h1>Last minute</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img
+							src="https://source.unsplash.com/random/300x300/?berlin"
+							alt=""
+							class="Thumbnail"
+						/>
+						<div class="card-body">
+							<p class="card-text">
+								This is a wider card with supporting text below as a natural
+								lead-in to additional content. This content is a little bit
+								longer.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button
+										type="button"
+										class="btn btn-sm btn-outline-secondary"
+									>
+										View
+									</button>
+								</div>
+								<small class="text-muted">9 mins</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img
+							src="https://source.unsplash.com/random/300x300/?france"
+							alt=""
+							class="Thumbnail"
+						/>
+						<div class="card-body">
+							<p class="card-text">
+								This is a wider card with supporting text below as a natural
+								lead-in to additional content. This content is a little bit
+								longer.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button
+										type="button"
+										class="btn btn-sm btn-outline-secondary"
+									>
+										View
+									</button>
+								</div>
+								<small class="text-muted">9 mins</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img
+							src="https://source.unsplash.com/random/300x300/?bangkok"
+							alt=""
+							class="Thumbnail"
+						/>
+						<div class="card-body">
+							<p class="card-text">
+								This is a wider card with supporting text below as a natural
+								lead-in to additional content. This content is a little bit
+								longer.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button
+										type="button"
+										class="btn btn-sm btn-outline-secondary"
+									>
+										View
+									</button>
+								</div>
+								<small class="text-muted">9 mins</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--::::::::::::::::::::testimonial:::::::::::::::::::::::::-->
+
+		<div id="testimonial" class="container">
+			<h1>Testimonial</h1>
+			<div class="row">
+				<div class="col-4">
+					<p class="my auto">
+						"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+						voluptates incidunt laborum facere consequatur praesentium harum
+						iusto ipsa itaque minus!" (John Doe - USA)
+					</p>
+				</div>
+				<div class="col-4">
+					<img
+						src="https://source.unsplash.com/random/300x300/?portrait,ui,smile"
+						alt=""
+						class="img-thumbnail"
+					/>
+				</div>
+				<div class="col-4">
+					<p class="my auto">
+						"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+						voluptates incidunt laborum facere consequatur praesentium harum
+						iusto ipsa itaque minus!" (Kylie Minogue - Australia)
+					</p>
+				</div>
+			</div>
+
+			<h6>Collapse</h6>
+			<p>
+				<button
+					class="btn btn-primary"
+					type="button"
+					data-toggle="collapse"
+					data-target="#collapse"
+					aria-expanded="false"
+					aria-controls="collapseExample"
+				>
+					collapse data button
+				</button>
+			</p>
+			<div class="collapse" id="collapse">
+				<div class="card card-body">
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+					terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+					labore wes anderson cred nesciunt sapiente ea proident.
+				</div>
+			</div>
+		</div>
+
+		<!--::::::::::::::::::::footer:::::::::::::::::::::::::-->
+		<!-- Footer -->
+		<footer class="page-footer bg-dark text-white font-small blue pt-4">
+			<!-- Footer Links -->
+			<div class="container-fluid text-center text-md-left">
+				<!-- Grid row -->
+				<div class="row">
+					<!-- Grid column -->
+					<div class="col-md-6 mt-md-0 mt-3">
+						<!-- Content -->
+						<h5 class="text-uppercase">Strive Travel</h5>
+						<p>
+							Avenida Los Miliones, 69056 Los Angeles <br />
+							VAT: 98989898989
+						</p>
+
+						<button type="button" class="btn btn-primary">Contact us</button>
+					</div>
+					<!-- Grid column -->
+
+					<hr class="clearfix w-100 d-md-none pb-3" />
+
+					<!-- Grid column -->
+					<div class="col-md-3 mb-md-0 mb-3">
+						<!-- Links -->
+						<h5 class="text-uppercase">Links</h5>
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!">Link 1</a>
+							</li>
+							<li>
+								<a href="#!">Link 2</a>
+							</li>
+							<li>
+								<a href="#!">Link 3</a>
+							</li>
+							<li>
+								<a href="#!">Link 4</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 mb-md-0 mb-3">
+						<!-- Links -->
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">
+				© 2020 Copyright:
+				<a href="https://mdbootstrap.com/%22%3E MDBootstrap.com">Policy</a>
+			</div>
+		</footer>
+
+		<script>
+			let countTravels = function () {
+				let arrayTravels = document.querySelectorAll(".col > img");
+				console.log(arrayTravels.length);
+			};
+			let mod = document.querySelector(".modal");
+			let modal = function () {
+				alert(mod);
+			};
+		</script>
 
 		<!--::::::::::::::::::::scripts:::::::::::::::::::::::::-->
 		<script
